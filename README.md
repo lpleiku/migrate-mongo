@@ -32,6 +32,8 @@ Usage: migrate-mongo [options] [command]
 
     -h, --help     output usage information
     -V, --version  output the version number
+    -s, --script   specify the script to run (up and down commands)
+    -a, --all      undo all applied database migration (down command)
 ````
 
 ## Basic Usage
